@@ -1,0 +1,9 @@
+<% books.forEach(s=>
+    { %> 
+        <h3>Book Title: <%= s.name %></h3>
+        <p><b>Author:</b><%=s.author%></p>
+        
+
+        <a href="<%=s.link %>""><p>Click Here to buy on Amazon</p></a>
+    <% });
+%>
